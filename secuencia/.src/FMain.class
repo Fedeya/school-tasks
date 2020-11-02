@@ -1,0 +1,41 @@
+' Gambas class file
+
+
+Public Sub Button6_Click()
+
+    Quit
+End
+
+Public Sub Button1_Click()
+
+  Button1.Visible = False
+  Button2.Visible = True
+End
+
+Public Sub Button2_Click()
+
+  Button2.Visible = False
+  Button3.Visible = True
+
+End
+
+Public Sub Button3_Click()
+
+  Button3.Visible = False
+  Button4.Visible = True
+
+End
+
+Public Sub Button4_Click()
+
+  Button4.Visible = False
+  Button5.Visible = True
+
+End
+
+Public Sub Button5_Click()
+
+  Button5.Visible = False
+  Button6.Enabled = True
+
+End
