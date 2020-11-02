@@ -2,7 +2,6 @@
 
 
 Public Sub Button6_Click()
-
     Quit
 End
 
@@ -26,6 +25,7 @@ Public Sub Button3_Click()
   Button3.Visible = False
   Button4.Visible = True
   FMain.Background = Color.Yellow
+  COlor
 End
 
 Public Sub Button4_Click()

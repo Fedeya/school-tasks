@@ -1,0 +1,33 @@
+' Gambas class file
+
+
+Public Sub YellowLabel_DblClick()
+
+  FMain.Background = Color.Yellow  
+
+End
+
+Public Sub RedButton_Click()
+
+  FMain.Background = Color.Red
+
+End
+
+Public Sub BlueTextBox_KeyPress()
+
+  FMain.Background = Color.Blue
+
+End
+
+
+Public Sub GreenLabel_MouseMove()
+
+  FMain.Background = Color.Green
+
+End
+
+Public Sub QuitButton_Click()
+
+  Quit
+
+End

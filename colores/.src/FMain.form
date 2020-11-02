@@ -1,0 +1,45 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { Title TextLabel
+    MoveScaled(9,5,47,13)
+    Font = Font["+5"]
+    AutoResize = True
+    Text = ("ELIJA EL COLOR DE FONDO DEL FORMUALRIO")
+    Alignment = Align.Center
+  }
+  { RedButton Button
+    MoveScaled(34,26,24,9)
+    Background = Color.Red
+    Foreground = Color.Black
+    Text = ("Rojo")
+  }
+  { QuitButton Button
+    MoveScaled(22,51,19,5)
+    Background = Color.Violet
+    Foreground = Color.Black
+    Text = ("Fin")
+  }
+  { YellowLabel Label
+    MoveScaled(4,26,24,9)
+    Background = Color.Yellow
+    Foreground = Color.Black
+    Text = ("Amarillo")
+    Alignment = Align.Center
+  }
+  { GreenLabel Label
+    MoveScaled(34,39,24,9)
+    Background = Color.Green
+    Foreground = Color.Black
+    Text = ("Verde")
+    Alignment = Align.Center
+  }
+  { BlueTextBox TextBox
+    MoveScaled(4,39,24,9)
+    Background = Color.Blue
+    Foreground = Color.Black
+    Text = ("Azul")
+    Alignment = Align.Center
+  }
+}
