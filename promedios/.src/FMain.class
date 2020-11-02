@@ -1,0 +1,22 @@
+' Gambas class file
+
+Public Sub AverageButton_Click()
+
+  Average.Text = (Val(Cal1.Text) + Val(Cal2.Text) + Val(Cal3.Text)) / 3
+
+End
+
+Public Sub CleanButton_Click()
+
+  Cal1.Text = ""
+  Cal2.Text = ""
+  Cal3.Text = ""
+  Average.Text = ""
+
+End
+
+Public Sub ExitButton_Click()
+
+  Quit
+
+End

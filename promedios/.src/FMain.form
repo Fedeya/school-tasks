@@ -1,0 +1,42 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { Label1 Label
+    MoveScaled(8,9,23,6)
+    Text = ("Primera Calificacion")
+  }
+  { Cal1 TextBox
+    MoveScaled(34,9,23,6)
+  }
+  { Label2 Label
+    MoveScaled(8,18,23,6)
+    Text = ("Segunda Calificacion")
+  }
+  { Cal2 TextBox
+    MoveScaled(34,18,23,6)
+  }
+  { Label3 Label
+    MoveScaled(8,27,23,6)
+    Text = ("Tercera Calificacion")
+  }
+  { Cal3 TextBox
+    MoveScaled(34,27,23,6)
+  }
+  { Average Label
+    MoveScaled(34,37,21,7)
+    Alignment = Align.Center
+  }
+  { AverageButton Button
+    MoveScaled(9,37,22,7)
+    Text = ("Promedio")
+  }
+  { CleanButton Button
+    MoveScaled(9,46,46,6)
+    Text = ("Otro Calculo")
+  }
+  { ExitButton Button
+    MoveScaled(9,53,46,5)
+    Text = ("Salir")
+  }
+}
