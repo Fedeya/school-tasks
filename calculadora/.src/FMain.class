@@ -1,0 +1,45 @@
+' Gambas class file
+
+
+
+Public Sub SumButton_Click()
+
+  Result.Text = Val(FirstNumber.Text) + Val(SecondNumber.Text)
+  
+End
+
+Public Sub SubstractButton_Click()
+
+  Result.Text = Val(FirstNumber.Text) - Val(SecondNumber.Text)
+
+End
+
+Public Sub MultiplyButton_Click()
+
+  Result.Text = Val(FirstNumber.Text) * Val(SecondNumber.Text)
+
+End
+
+Public Sub DivideButton_Click()
+
+  If Val(SecondNumber.Text) = 0 Then
+    Result.Text = "Math Error"
+    Return
+  Endif
+
+  Result.Text = Val(FirstNumber.Text) / Val(SecondNumber.Text)
+
+End
+
+Public Sub ExitButton_Click()
+
+  Quit
+
+End
+
+Public Sub ClearButton_Click()
+
+  FirstNumber.Text = ""
+  SecondNumber.Text = ""
+
+End
